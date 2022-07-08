@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(./img/pngtree-pizza-food-eating-welfare-cartoon-simple-background-picture-image_1428601.jpg);
+}
+.container{
+    display: flex;
+    margin: 150px auto ;
+    text-align: center;
+    background-image: url(./img/scorer-5813123_960_720.webp);
+    background-size: cover;
+    height: 300px;
+    width: 50%;
+}
+.pizza-container{
+    margin: 10px auto;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid salmon;
+}
+input:focus{
+    outline-style: none;
+}
+.btn-enviar{
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid salmon;
+}
+.informacion-pizza{
+    margin-top:50px;
+}
+.no-stock{
+    color: rgb(255, 0, 0);
+    margin:50px 0 0 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.precio{
+    color: green;
+    font-weight: 300;
+}
